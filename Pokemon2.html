@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pokedex.css" media="screen">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="seccion-1">
+            <h1>Bienvenido a la Pokedex</h1>
+            <div class="borde">
+                <img src="./pokebola.png" id="imagen" width="200px">
+            </div>
+        </section>
+        <section class="seccion-2">
+            <h3>Buscar Pokemón</h3>
+            <input type="text" id="nombrePokemon" name="nombre">
+            <button onclick="fetchPokemon()">Buscar Pokemón</button>
+        </section>
+        <section class="seccion-3">
+            <h2>Descripción del Pokemón</h2>
+            <h4>Nombre: </h4><textarea type="text" id="pokeNombre" name="pokeNombre"></textarea>
+            <h4>Habilidades: </h4><textarea type="text" id="pokeHabilidades" name="pokeHabilidades"></textarea>
+            <h4>Tipo de Pokemón: </h4><textarea type="text" id="pokeTipo" name="pokeTipo"></textarea>
+            <h4>Movimientos: </h4><textarea type="text" id="pokeMovimiento" name="pokeTipo"></textarea>
+            <h4>Estadísticas: </h4><textarea type="text" id="pokeStatics" name="pokeStatics"></textarea>
+        </section>
+    </main>
+    <!--
+    <section class="lienzo">
+        <div class="fondo">
+            <img src="poke.png" alt="">
+        </div>
+        <div class="seccion-1">
+            <input type="text" id="nombrePokemon" name="nombre"><br>
+        </div>
+        <div class="boton">
+            <button onclick="fetchPokemon()"></button>
+        </div>
+    </section>
+    
+    <input type="text" id="nombrePokemon" name="nombre"><br>
+    <button onclick="fetchPokemon()">Cambiar Pokemon</button><br>
+    <img src="./pokebola.png" id="imagen" width="200px"><br>
+    <span id="infoPoke">Aqui va la info</span><br>
+    <textarea type="text" id="pokeNombre" name="pokeNombre"></textarea>
+    <textarea type="text" id="pokeHabilidades" name="pokeHabilidades"></textarea>
+    <textarea type="text" id="pokeTipo" name="pokeTipo"></textarea>
+    <textarea type="text" id="pokeMovimiento" name="pokeTipo"></textarea>
+    <textarea type="text" id="pokeStatics" name="pokeStatics"></textarea>
+    -->
+</body>
+<footer>
+    <script src="./Pokemon2.js"></script>
+</footer>
+
+</html>
